@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <style type="text/css">
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: -25.344, lng: 131.036 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 4,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Emilie Pons</title>
+    <script src="navigation.js" defer></script>
+  </head>
+  <body class="home">
+    <a class="skip-to-content" href="#main">Skip to content</a>
+    <header class="primary-header flex">
+      <div>
+        <img
+          src="./assets/shared/logo.svg"
+          alt="space tourism logo"
+          class="logo"
+        />
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only" aria-expanded="false">Menu</span>
+      </button>
+      <nav >
+        <ul
+          id="primary-navigation"
+          data-visible="false"
+          class="primary-navigation underline-indicators flex"
+        >
+          <li >
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="Home.html"
+              >Home</a
+            >
+          </li>
+          <li >
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="Media.html"
+              >media</a
+            >
+          </li>
+          <li class="active">
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="Work.html"
+              >Work</a
+            >
+          </li>
+          <li >
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="About.html"
+              >About Me</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="Services.html"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-sans-cond uppercase letter-spacing-2"
+              href="Contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="grid-container ">
+      <h1> Work</h1>
+      <div>
+      <p> I have worked for NPR, Chamber Music Magazine, JazzTimes and I currently work for PRI and TRT World. 
+      </p>
+      <p> I am a digital journalist and an audio producer. My stories have been featured on The World (on PRI), TRT World, NPR and in JazzTimes. I have also filed for AFP and DownBeat magazine.</p>
+      <br />
+      <p>My work is at the intersection of culture and politics, with stories such as "Kurdish Music as Protest, for Radio DW, which features Kurdish musicians in Turkey, or my Chamber Music magazine data story entitled "An Invisible Wall." which describes the impact of Trump’s immigration policies on artistic diversity in the US.</p>
+      <br />
+      <p> I have also written for the South Bronx publication the Mott Haven Herald about Stephanie Sinclair’s photography work on child brides in various parts of the world such as Afghanistan, India or Yemen.</p>
+      <br />
+      <p> As a board member of the New York Foreign Press Association\, I have moderated webinars on Covid and musicians. I have also co-hosted a webinar on the coverage of the Syrian War and I am about to launch the first FPA’s podcast.
+      </p>
+      <br />
+      <p>I believe every culture has a sound, and that is what I am interested in reporting on. I am interested in showing what sounds mean in various cultures. 
+      </p>
+      </div>
+      <br /><br /><br />
+      <div>
+          <h2>Countries and cities where I have worked around the world</h2>
+          <div class="list-group">
+            <a  class="list-group-item list-group-item-action ">
+             The U.S.: Los Angeles, Chicago, Detroit, Monterrey, New York, Miami, San Juan (I have either covered music festivals or just shows in these cities)
+            </a>
+            <a  class="list-group-item list-group-item-action">Mexico: I covered the Guadalajara jazz festival and the Riviera Maya Jazz Festival. I have also conducted tons of interviews and done archival work (for my Chavela book) in Mexico City.</a>
+            <a  class="list-group-item list-group-item-action">Canada: I have covered the Montreal jazz festival many times.</a>
+            <a  class="list-group-item list-group-item-action">France: I have covered the Marciac Jazz festival (for JazzTimes).</a>
+            <a  class="list-group-item list-group-item-action ">Turkey: I have produced audio pieces on Kurdish music and Turkish jazz (I know, sounds crazy but there is such a thing as Turkish jazz...and some of it is good! ). I have worked in Istanbul but also spent time in Diyarbakir and Mardin with a Kurdish musician. I also did some reporting in Gümüšlük.</a>
+            <a  class="list-group-item list-group-item-action ">Lebanon: I did a piece on a Syrian metal band in Beirut. Very cool.
+          </a>
+          </div>
+          <a  class="list-group-item list-group-item-action ">Spain: I did a couple of interviews in Spain for my book. It was in Madrid and in Cádiz. </a>
+          </div>
+          <a  class="list-group-item list-group-item-action ">Panama: I covered the Panama jazz festival in 2011</a>
+          </div>
+      </div>
+        <br />
+        <br />
+        <br />
+
+        <h3>Around The world</h3>
+        <!--The div element for the map -->
+        <div id="map"></div>
+    
+        <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCzvl4xT_f-wV9_AgiIezCIKFTteGzG24&callback=initMap&libraries=&v=weekly"
+          async
+        ></script>
+  </div>
+    </main>
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
