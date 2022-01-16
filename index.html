@@ -1,186 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- BootStrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <!-- Our custom CSS -->
-    <link rel="stylesheet" href="index.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emilie Pons</title>
-    <script src="navigation.js" defer></script>
-  </head>
-  <body class="home">
-  
-    <header >
-      <!--Navigation-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="#">Emilie Pons</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul
-    
-          data-visible="false"
-          class="bottom-navigation underline-indicators flex"
-        >
-          <li class="active">
-            <a
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="index.html"
-              >Home</a
-            >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- style sheet-->
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--------Navbar------->
+
+<nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <div class="container" >
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="./images/logo2.png" alt="logo" ><span style="color:black;" class="name">Emilie Pons</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html"
+            >Home</a
+          >
           </li>
-          <li >
-            <a
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="Media.html"
-              >media</a
+          <li class="nav-item ">
+              <a class="nav-link" href="Media.html"
+              >Media</a
             >
+            </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"    href="About.html"
+            >About Me</a
+          >
           </li>
-          <li >
-            <a 
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="Work.html"
-              >Work</a
+          <li class="nav-item">
+            <a class="nav-link"   href="Services.html"
+            >Services</a
+          >
+          </li>
+          <li class="nav-item">
+              <a class="nav-link"   href="Podcast.html"
+              >Podcast</a
             >
-          </li>
-          <li >
-            <a
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="About.html"
-              >About Me</a
-            >
-          </li>
-          <li>
-            <a
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="Services.html"
-              >Services</a
-            >
-          </li>
-          <li>
-            <a
-              class="ff-sans-cond uppercase letter-spacing-2 text-white"
-              href="Contact.html"
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"      href="Contact.html"
               >Contact</a
             >
-          </li>
-        </div>
-      </nav>
-      <!--Introduction-->
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h3> My work is at the intersection of culture and politics</h3>
-          
-        </div>
+            </li>
+        </ul>
       </div>
-      
-     
-    </header>
-<!--Main-->
-<br /><br />
-<br /><br />
-<br /><br />
-<br /><br />
-    <main id="main" class="grid-container grid-container--home">
+    </div>  
+  </nav>
+<!---------------------------->
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid profile">
+    <div class="container pro">
+      <div class="hero">
+        <h1 class="display-1 nameTitle">Emilie Pons</h1>
+        <h2 class="display-6">Journalist</h2>
+        <h4 >Content Creator</h4>
+      </div>
+
       <div>
-        <h1 class="d-block fs-900 ff-serif " >Emilie Pons</h1>
-
-        <h2>Digital Journalist and an Audio Producer.</h2>
-      </div>
-      </main>
-      <br /><br />
-      <br /><br />
-      <br /><br />
-      <br /><br />
-    <!-- Featured In -->
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Featured In</h1>
-        <p class="lead">NPR  DW  Variety   The World On PRI  NYC Jazz Record  TRT World  JazzTimes Hunts Point Express and Mott Haven Herald The Tico Times LatinLover allaboutjazz.com</p>
+        <img class="propic" src="images/rr.JPG" />
       </div>
     </div>
+  </div>
 
-    <!--############ Bottom Navigation Bar #################-->
+  <!--Featured In-->
 
-    <nav class="navbar navbar-light bg-dark">
-      <ul
-    
-      data-visible="false"
-      class="bottom-navigation underline-indicators flex"
-    >
-      <li class="active">
-        <a
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="Home.html"
-          >Links</a
-        >
-      </li>
-      <li >
-        <a
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="Media.html"
-          >Podcasts</a
-        >
-      </li>
-      <li >
-        <a 
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="Work.html"
-          >Organizations</a
-        >
-      </li>
-      <li >
-        <a
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="About.html"
-          >Twitter</a
-        >
-      </li>
-      <li>
-        <a
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="Services.html"
-          >Instagram</a
-        >
-      </li>
-      <li>
-        <a
-          class="ff-sans-cond uppercase letter-spacing-2 text-danger"
-          href="Contact.html"
-          >Mail</a
-        >
-      </li>
-    </nav>
+  <div class="jumbotron jumbotron-fluid featured">
+    <div class="container">
+      <div class="featuredIn">Featured In</div> 
+      <div class=" featuredimages">
+        <img class="featuredImage" src="images/NPR.png">
+        <img class="featuredImage" src="images/dw.png">
+        <img class="featuredImage" src="images/variety.png">
+        <img class="featuredImage" src="images/nycjr.png">
+        <img class="featuredImage" src="images/TRT_World.svg">
+        <img class="featuredImage" src="images/hpe.png">
+        <img class="featuredImage" src="images/ttt.png">
+        <img class="featuredImage" src="images/pri.png">
+        <img class="featuredImage" src="images/lt.png">
+        <img class="featuredImage" src="images/mhh.png">
+        <img class="featuredImage" src="images/jt.png">
+        <img class="featuredImage" src="images/aatj.png">
+      </div>
+    </div>
+  </div>
 
-
-
-
+<!-- Bottom Navbar-->
+<nav class="navbar bottom navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse justify-content-center icon-bar" id="navbarNav">
+        <div class="dropup">
+          <button class="dropbtn">Links</button>
+          <div class="dropup-content">
+            <a href="https://www.gauthiergiacomoni.com/">Gauthier Giacomoni</a>
+            <a href="https://samirarajabi.com/">Samira Rajabi</a>
+            <a href="https://www.kenaragaki.com/">Ken Aragaki</a>
+            <a href="https://www.ryankailath.com/tagged/radio">Ryan Kailath</a>
+            <a href="https://ajamonet.com">Aja Monet</a>
+            <a href="http://markruffin.com/">Mark Ruffin</a>
+            <a href="https://www.rosalindcummingsyeates.com/">Roslind Cummings-Yeates</a>
+          </div>
+        </div>
+        <div class="dropup">
+          <button class="dropbtn">Organizations</button>
+          <div class="dropup-content">
+            <a href="https://muckrack.com/emilie-pons ">Muckrack</a>
+            <a href="https://www.foreignpressassociation.org/emilie-pons-bio.html">The Foreign Press Association</a>
+          </div>
+        </div>
+        <a href="https://www.facebook.com/emilie.pons.10/" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/emilie_pons" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.instagram.com/emilistorytelling/" class="instagram"><i class="fa fa-instagram"></i></a> 
+        <a href="https://www.linkedin.com/in/emiliepons/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  </div>
+</nav>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://kit.fontawesome.com/e74ddc1edf.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
   </body>
 </html>
