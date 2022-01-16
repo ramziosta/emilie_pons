@@ -1,0 +1,89 @@
+/*
+    Colors and styles on cards are from bootstrap
+
+    colors:
+    https://getbootstrap.com/docs/4.5/getting-started/theming/#css-variables
+
+    cards:
+    https://getbootstrap.com/docs/4.5/components/card/
+*/
+
+.card {
+  margin-bottom: 25px;
+  border-color: var(--secondary);
+  max-width: 40rem;
+  min-width: 30rem;
+}
+
+.card-header {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.divider {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  text-align: center;
+}
+
+h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.media {
+  padding: 5rem;
+  margin-top: 10rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px grey;
+}
+
+td a {
+  color: rgb(255, 100, 168);
+  font-weight: 700;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+td a:hover {
+  color: rgb(170, 94, 139);
+  text-decoration: none;
+}
+
+.hh {
+  color: rgb(255, 100, 168);
+}
+
+.mediainfo {
+  color: grey;
+  border: 3px solid rgb(255, 100, 168);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 1px 1px 15px grey;
+}
+div.sticky {
+  top: 10rem;
+  background: white;
+  padding: 50px;
+  font-size: 20px;
+  margin-left: 5rem;
+  min-width: 40rem;
+  border-radius: 8px;
+  color: rgb(75, 66, 66);
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px grey;
+}
+
+.countries {
+  color: rgb(255, 100, 168);
+}
+
+.isbn {
+  padding: 0.3em;
+  border-radius: 50%;
+  border: 1px solid grey;
+  color: white;
+  background: grey;
+}
