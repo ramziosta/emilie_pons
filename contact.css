@@ -1,0 +1,73 @@
+.fa {
+  font-size: 3rem;
+  width: 5rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 55px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-envelope {
+  color: #fd2306;
+}
+.fa-envelope:hover {
+  color: #991403;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-youtube {
+  background: #bb0000;
+}
+
+.fa-instagram {
+  color: #e770ce;
+}
+.contact {
+  padding-top: 15rem;
+  text-align: center;
+}
+.navbar {
+  height: 10rem;
+}
+.links > a {
+  margin-top: 8rem;
+  font-size: 5rem;
+}
+
+.connectTitle {
+  color: rgba(255, 100, 168, 1);
+  border: 3px solid rgb(255, 100, 168);
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 15px grey;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.connectTitle:hover {
+  background: rgb(190, 99, 138);
+  border: 3px solid rgb(190, 99, 138);
+  color: white;
+}
+
+.contactme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
