@@ -115,7 +115,7 @@ h4 {
   text-align: center;
 }
 .serviceItems {
-  text-align: center;
+  text-align: justify;
   background: rgb(255, 100, 168);
   margin: 0 auto;
   max-width: 30rem;
